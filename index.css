@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+  ::selection{
+    color: #18a47c;
+    background: lightblue;
+  }
+  nav{
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+    box-shadow: 0px 7px 5px lightgray;
+    background-color: white;
+  }
+  nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+  }
+  .menu .logo a{
+    text-decoration: none;
+    color: #18a47c;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .menu ul{
+    display: inline-flex;
+  }
+  .menu ul li{
+    list-style: none;
+    margin-left: 7px;
+  }
+  .menu ul li:first-child{
+    margin-left: 0px;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    color: #18a47c;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .menu ul li a:hover{
+    background: #18a47c;
+    color: black;
+  }
+  h1{
+    font-family:exo2;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    color: #055050;
+    font-weight: bold;
+}
+  .leftdiv
+  {
+  float: left;
+  }
+  .middlediv
+  {
+  float: left;
+  
+  }
+  .rightdiv
+  {
+  float: left;
+  }
+  table{border-color:#055050;
+  align-items: center;
+}
+  h3{
+    color: #055050;
+  }
+  h6{
+    color: #255f6c;
+  }
+  .center {
+    margin-left:auto;
+    margin-right: auto;
+  }
+table{
+  font-family: 'Exo 2';}
+  h1{
+    color:white
+  }
+  h2{
+    color:#255f6c;
+  }
+  th, td {
+    padding: 50px;
+  }
+  tr{
+    padding-bottom: 51px;
+  }
+  
+  
+input[type=text], select, textarea {
+  width: 50%; 
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  margin-left: 30px;
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: #255f6c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 2px;
+  background-color: #f2f2f2;
+  padding: 2px;
+}
+  form{
+    background-color: #bbfbea;
+
+  }
+  
+  .footer {
+    height: 50px;
+    top: 50%;
+    bottom: 50%;
+    width: 100%;
+    background-color:#055151;
+    color: white;
+    text-align: left;
+  }
+  body{
+    font-family: 'Exo 2', sans-serif;
+  }
+  .learn{
+    background: -webkit-linear-gradient(0deg, #000000 0%, #48abe0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
